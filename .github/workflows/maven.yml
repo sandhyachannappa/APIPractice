@@ -36,8 +36,8 @@ jobs:
       with:
         name: test-results
         path: 
-          test-output/reports/
-          target/surefire-reports/
+         test-output/reports/
+         target/surefire-reports/
          logs/
 
     - name: Publish Test Report
